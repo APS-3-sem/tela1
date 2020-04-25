@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel9"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Ap" max="32767" attributes="0"/>
+                          <Component id="Casa" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPessoas" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="JTcasa" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblCasa" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="JSpessoas" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="JTap" min="-2" pref="112" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lblAp" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Component id="Proximo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Descarga" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="PiaBanheiro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="maquinaRoupa" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tanqueRoupa" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="piaCozinha" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="maquinaLouca" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="JTpiaC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="JTtanque" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="JTpiaB" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="JTmaquiL" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <Component id="JTmaquiR" alignment="0" pref="98" max="32767" attributes="0"/>
+                                                  <Component id="JTprivada" alignment="0" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblmaquiL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblPrivada" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPiaB" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblmaquiR" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPiaC" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbltanque" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="chuveiro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Selecione" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="tempVez" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Selecione" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tempVez" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="chuveiro" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Casa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JTcasa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCasa" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Ap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblAp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JTap" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblPessoas" pref="16" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="JSpessoas" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Descarga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTprivada" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPrivada" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PiaBanheiro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTpiaB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPiaB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="maquinaRoupa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTmaquiR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblmaquiR" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tanqueRoupa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTtanque" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbltanque" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="piaCozinha" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTpiaC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPiaC" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="maquinaLouca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JTmaquiL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblmaquiL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Proximo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Selecione">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Selecione o que voc&#xea; utiliza por dia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chuveiro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chuveiro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="chuveiroItemStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chuveiroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Descarga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Privada"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="DescargaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="PiaBanheiro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pia do banheiro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="PiaBanheiroItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="maquinaRoupa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maquina de lavar roupa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="maquinaRoupaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="tanqueRoupa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tanque de lavar roupa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="tanqueRoupaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="piaCozinha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pia da cozinha"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="piaCozinhaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="maquinaLouca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maquina de lavar lou&#xe7;a"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="maquinaLoucaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Proximo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xf3;ximo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProximoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTcasa">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="JTprivada">
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTpiaB">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="JTmaquiR">
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTtanque">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="JTmaquiL">
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTpiaC">
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempVez">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tempo/Vezes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCasa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrivada">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vezes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPiaB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmaquiR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vezes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbltanque">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPiaC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmaquiL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vezes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Casa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Casa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="CasaItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="Ap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apartemento"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="ApItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTap">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPessoas">
+    </Component>
+    <Component class="javax.swing.JSpinner" name="JSpessoas">
+    </Component>
+  </SubComponents>
+</Form>
